@@ -93,8 +93,8 @@ h6,
 /* Desktop Navigation */
 .nav-menu,
 .nav-menu * {
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 2px;
   list-style: none;
 }
 
@@ -102,8 +102,7 @@ h6,
   position: relative;
   white-space: nowrap;
   float: left;
-  margin-left: 74px;
-  padding: 9px;
+  padding-left: 85px;
 }
 
 .nav-menu a {
@@ -116,7 +115,6 @@ h6,
   font-family: "Open Sans", sans-serif;
 }
 
-
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
@@ -127,7 +125,6 @@ h6,
 .nav-menu .get-started a {
   background: #6b4798;
   color: #fff;
-  border-radius: 50px;
   margin: 0 15px;
   padding: 10px 25px;
 }
@@ -139,7 +136,7 @@ h6,
 
 /* Mobile Navigation */
 .mobile-nav {
-  position: relative;
+  position: fixed;
   top: 0;
   bottom: 0;
   z-index: 9999;
@@ -334,6 +331,7 @@ h6,
   #header .logo img {
     width: 75%;
     margin-top: 5px;
+    border-radius: 50%;
   }
   .contact .info p {
     font-size: 13px !important;

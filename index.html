@@ -33,7 +33,7 @@
   </head>
 
   <body>
-        <nav class="nav-menu d-lg-block">
+        <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li class="active"><a href="#header">Home</a></li>
             <li><a href="#about">About me</a></li>
@@ -65,10 +65,10 @@
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
             <img
-              src="img/banner-image.png"
+              src="img/me.jpg"
               class="img-fluid animated"
               alt=""
-              width="70%"
+              width="45%"
             />
           </div>
         </div>
@@ -87,6 +87,7 @@
               <img
                 src="img/about-me.png"
                 class="img-fluid"
+                style="border-radius: 100%;"
                 alt=""
                 data-aos="zoom-in"
               />
@@ -99,14 +100,13 @@
               and JavaScript language and possess a good knowledge of computer software packages
               (frameworks and tools) that are used in today’s technology.<br>
               <br>
-              On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner
-              and constantly seeking to improve my skills and am fully aware of the latest
-              Front-end Development Tools.<br>
-              <br>
-              In addition to this, I have the ability to adapt to any type of team environment, I am team oriented
+              I have the ability to adapt to any type of team environment, I am team oriented
               and get along with others when working in a group setting. I also have the ability to work
-              independently while staying on schedule and meeting those tight deadlines.
+              independently while staying on schedule and meeting those tight deadlines.<br>
               <br>
+              I have excellent communication and writing skills gained through various training and university courses. 
+              I speak fluent English and Albanian.
+              
               </p>       
               <p data-aos="fade-up" data-aos-delay="10">
                 <a
@@ -114,6 +114,14 @@
                   class="btn-get-cv"
                   target="_blank"
                 >Check My Cv
+                </a>
+              </p>
+              <p data-aos="fade-up" data-aos-delay="20">
+                <a
+                  href="https://www.pirple.com/certificates/4gouqyh7px"
+                  class="btn-get-cv"
+                  target="_blank"
+                >Check My Certificate
                 </a>
               </p>
             </div>
@@ -233,6 +241,21 @@
                 </p>
               </div>
             </div>
+
+            <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="zoom-in"
+            data-aos-delay="700"
+          >
+            <div class="icon-box">
+              <div class="icon"><i class="fab fa-wordpress"></i></div>
+              <h4 class="title"><a>Wordpress</a></h4>
+              <p class="description">
+                WordPress is web publishing software you can use to create a 
+                beautiful website or blog.
+              </p>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -249,10 +272,11 @@
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12">
               <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">Todos</li>
+                <li data-filter="*" class="filter-active">All Projects</li>
                 <li data-filter=".filter-html">HTML</li>
                 <li data-filter=".filter-js">Games</li>
-                <li data-filter=".filter-react">React JS</li>
+                <li data-filter=".filter-react">Wordpress</li>
+                <li data-filter=".filter-pirple">Course</li>
               </ul>
             </div>
           </div>
@@ -262,48 +286,20 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-react">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---linkedin---redux_2x_5u2fRQ2-T.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---linkedin---redux_2x_5u2fRQ2-T.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Discord Webpage"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/linkedin-redux"
-                    title="Linkedin - Redux"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Linkedin - Redux</h4>
-                  <p>React JS</p>
-                </div>
-              </div>
-            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-html">
               <div class="portfolio-wrap">
                 <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---discord-webpage_2x_9L6bH226n.png"
+                  src="./img/landing.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-links">
                   <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---discord-webpage_2x_9L6bH226n.png"
+                    href="./img/landing.png"
                     data-gall="portfolioGallery"
                     class="venobox"
-                    title="Discord Webpage"
+                    title="Landing Page"
                     ><i class="icofont-plus-circle"></i
                   ></a>
                   <a
@@ -314,7 +310,7 @@
                   ></a>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Discord Webpage</h4>
+                  <h4>Landing Page</h4>
                   <p>HTML</p>
                 </div>
               </div>
@@ -323,115 +319,57 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-html">
               <div class="portfolio-wrap">
                 <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---spiderman_2x_TL0XAOrr9.png"
+                  src="./img/page.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-links">
                   <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---spiderman_2x_TL0XAOrr9.png"
+                    href="./img/page.png"
                     data-gall="portfolioGallery"
                     class="venobox"
                     title="Spider-man: Miles Morales"
                     ><i class="icofont-plus-circle"></i
                   ></a>
                   <a
-                    href="https://github.com/rafaelmartins92/spiderman"
+                    href="https://github.com/Leart1234/Landing-page-2"
                     title="Github"
                     target="_blank"
                     ><i class="fab fa-github"></i
                   ></a>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Spider-man: Miles Morales</h4>
+                  <h4>Landing Page</h4>
                   <p>HTML</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-next">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-pirple">
               <div class="portfolio-wrap">
                 <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---moveit_2x_UBXTY93fkq.png"
+                  src="./img/pirple.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-links">
                   <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---moveit_2x_UBXTY93fkq.png"
+                    href="./img/pirple.png"
                     data-gall="portfolioGallery"
                     class="venobox"
-                    title="Move.it"
+                    title="Webpage"
                     ><i class="icofont-plus-circle"></i
                   ></a>
                   <a
-                    href="https://github.com/rafaelmartins92/moveit"
+                    href="https://github.com/Leart1234/Pirple-Course"
                     title="Github"
                     target="_blank"
                     ><i class="fab fa-github"></i
                   ></a>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Move.it</h4>
-                  <p>Next JS</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-js">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---flappy-superman_2x_k4k0tZ8Ei.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---flappy-superman_2x_k4k0tZ8Ei.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Flappy Superman"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/flappybird"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Flappy Superman</h4>
-                  <p>JavaScript</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-react">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---clone-discord_2x_vqhVDKYuO.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---clone-discord_2x_vqhVDKYuO.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Discord Clone"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/discord-reactjs"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Discord Clone</h4>
-                  <p>React JS</p>
+                  <h4>Homework and Projects</h4>
+                  <p>Pirple Coures</p>
                 </div>
               </div>
             </div>
@@ -441,357 +379,94 @@
             >
               <div class="portfolio-wrap">
                 <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---gobarber_2x_iO5PPshk5.png"
+                  src="./img/wordpress.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-links">
                   <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---gobarber_2x_iO5PPshk5.png"
+                    href="./img/wordpress.png"
                     data-gall="portfolioGallery"
-                    class="venobox"
-                    title="GoBarber"
+                    class="worpress"
+                    title="Webpage"
                     ><i class="icofont-plus-circle"></i
                   ></a>
                   <a
-                    href="https://github.com/rafaelmartins92/gobarber"
+                    href="https://github.com/Leart1234/Wordpress"
                     title="Github"
                     target="_blank"
                     ><i class="fab fa-github"></i
                   ></a>
                 </div>
                 <div class="portfolio-info">
-                  <h4>GoBarber</h4>
-                  <p>React JS / React Native</p>
+                  <h4>Webpage</h4>
+                  <p>Wordpress</p>
                 </div>
               </div>
             </div>
 
+
+           
             <div class="col-lg-4 col-md-6 portfolio-item filter-js">
               <div class="portfolio-wrap">
                 <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---game-dev_2x_7z4S1dHT0.png"
+                  src="./img/tictactoe.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-links">
                   <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---game-dev_2x_7z4S1dHT0.png"
+                    href="./img/tictactoe.png"
                     data-gall="portfolioGallery"
                     class="venobox"
-                    title="Game Dev"
+                    title="Games"
                     ><i class="icofont-plus-circle"></i
                   ></a>
                   <a
-                    href="https://github.com/rafaelmartins92/game-dev"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Game Dev</h4>
-                  <p>JavaScript</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 portfolio-item filter-react filter-rn"
-            >
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---ecoleta_2x_hkH-nufjT.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---ecoleta_2x_hkH-nufjT.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Ecoleta"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/ecoleta"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Ecoleta</h4>
-                  <p>React JS / React Native</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-rn">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---mines_2x_K2lVTMOW7q.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---mines_2x_K2lVTMOW7q.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Mines"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/mines"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Mines</h4>
-                  <p>React Native</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-rn">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---calculator_2x_-J-VrgPDlV.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---calculator_2x_-J-VrgPDlV.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Calculator"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/calculator"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Calculator</h4>
-                  <p>React Native</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 portfolio-item filter-react filter-rn"
-            >
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---be-the-hero_2x_DyrV4TvR0.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---be-the-hero_2x_DyrV4TvR0.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Be the Hero"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/be-the-hero"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Be the Hero</h4>
-                  <p>React JS / React Native</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 portfolio-item filter-react filter-rn"
-            >
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---dev-radar_2x_tNy7HvBpcz.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---dev-radar_2x_tNy7HvBpcz.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Dev Radar"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/dev-radar"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Dev Radar</h4>
-                  <p>React JS / React Native</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-js">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---hora-do-dia_2x_EQwdWvtQEh.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---hora-do-dia_2x_EQwdWvtQEh.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Hora do dia"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/cursoemvideo/tree/master/Hora%20do%20Dia"
-                    title="Github"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Hora do dia</h4>
-                  <p>JavaScript</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-js">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---verificador-de-idade_2x_VcdhwrOwz.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---verificador-de-idade_2x_VcdhwrOwz.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Verificador de idade"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/cursoemvideo/tree/master/Verificador%20de%20Idade"
+                    href="https://github.com/Leart1234/Tictactoe"
                     title="More Details"
                     target="_blank"
                     ><i class="fab fa-github"></i
                   ></a>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Verificador de idade</h4>
-                  <p>JavaScript</p>
+                  <h4>Tic Tac Toe</h4>
+                  <p>Games</p>
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-js">
               <div class="portfolio-wrap">
                 <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---analisador-de-nu_meros_2x_8LO17xziUy.png"
+                  src="./img/gamefour.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-links">
                   <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---analisador-de-nu_meros_2x_8LO17xziUy.png"
+                    href="./img/gamefour.png"
                     data-gall="portfolioGallery"
                     class="venobox"
-                    title="Analisador de números"
+                    title="games"
                     ><i class="icofont-plus-circle"></i
                   ></a>
                   <a
-                    href="https://github.com/rafaelmartins92/cursoemvideo/tree/master/Analisador%20de%20N%C3%BAmeros"
-                    title="More Details"
+                    href="https://github.com/Leart1234/games"
+                    title="Linkedin - Redux"
                     target="_blank"
                     ><i class="fab fa-github"></i
                   ></a>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Analisador de números</h4>
-                  <p>JavaScript</p>
+                  <h4>Game Four</h4>
+                  <p>Games</p>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-js">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---tabuada_2x_s2HL8BlRPu.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---tabuada_2x_s2HL8BlRPu.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Tabuada"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/cursoemvideo/tree/master/Tabuada"
-                    title="More Details"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Tabuada</h4>
-                  <p>JavaScript</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-js">
-              <div class="portfolio-wrap">
-                <img
-                  src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---vamos-contar_2x_20HYd7VoK1.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---vamos-contar_2x_20HYd7VoK1.png"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="Contador"
-                    ><i class="icofont-plus-circle"></i
-                  ></a>
-                  <a
-                    href="https://github.com/rafaelmartins92/cursoemvideo/tree/master/Contador"
-                    title="More Details"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Contador</h4>
-                  <p>JavaScript</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+     </div>
+   </div>
+  </div>
         </div>
       </section>
       <!-- End Portfolio Section -->
@@ -823,6 +498,7 @@
                 </div>
 
                 <div class="phone">
+                  <i class="fas fa-phone-square-alt"></i>
                   <h4>Telephone:</h4>
                   <p>049 261 889</p>
                 </div>
